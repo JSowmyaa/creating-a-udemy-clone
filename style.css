@@ -22,23 +22,29 @@ body{
 }
 
 .navbar__s1__title{
-    color: blueviolet;
+    color: #EC4899;
     
 }
 
 .navbar__s2{
     padding: 10px;
-    border: solid black 1px;
+    border: solid #9D174D 1px;
     width: 60%;
     border-radius: 30px;
     display: flex;
     gap: 10px;
+    color: #EC4899;
 }
 
 .navbar__s2 input{
     border: none;
     width: 100%;
     font-size: 15px;
+    color: #9D174D;
+}
+
+.navbar__s2 ::placeholder{
+    color: #EC4899;
 }
 
 .navbar__s2 input:focus{
@@ -49,6 +55,7 @@ body{
     display: flex;
     gap: 10px;
     align-items: center;
+    color: #EC4899;
 }
 
 .mylearning{
@@ -79,18 +86,18 @@ body{
 }
 
 .categories p{
-    background-color: blueviolet;
+    background-color: #EC4899;
     color: white;
     padding: 5px;
     border-radius: 30px;
-    border: solid blueviolet 1px;
+    border: solid #EC4899 1px;
     cursor: pointer;
 }
 
 .categories p:hover{
     transition: 1s;
     background-color: transparent;
-    color: blueviolet;
+    color: #EC4899;
 }
 
 .sale-image{
@@ -103,7 +110,7 @@ body{
 
 .sale-image__offer{
     width: 25%;
-    border: solid black 2px;
+    border: solid #9D174D 2px;
     background-color: white;
     padding: 2%;
     position: absolute;
@@ -113,6 +120,7 @@ body{
     animation-duration: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
+    color: #EC4899;
 }
 
 @keyframes zoom{
@@ -127,8 +135,10 @@ body{
     }
 }
 
-.recommended{
+.Recommended{
     padding: 10px;
+    color: #EC4899;
+    
 }
 
 .recommended__container{
@@ -138,8 +148,13 @@ body{
     margin-top: 10px;
 }
 
+
+
+
+
 .course-card{
     width: 300px;
+    color: #EC4899;
 }
 
 
@@ -151,6 +166,7 @@ body{
 
 .topics{
     padding: 10px;
+    color: #EC4899;
 }
 
 .topics__container{
@@ -161,7 +177,7 @@ body{
 }
 
 .topics__container p{
-    border: solid grey 2px;
+    border: solid #DB2777 2px;
     padding: 10px;
     flex-grow: 1;
     flex-basis: 25%;
@@ -180,8 +196,8 @@ body{
 
 .footer{
     padding: 30px;
-    background-color: black;
-    color: white;
+    background-color: #FBCFE8;
+    color: #EC4899;
 }
 
 .footer__one{
